@@ -9,5 +9,54 @@ body{
     font-family: 'Poppins', sans-serif;
     /* font-family: 'Roboto', sans-serif; */
 }
+.container{
+    width: 80%;
+    margin: 30px auto;
+}
+.btn{
+    padding: 14px 39px;
+    font-weight: bold;
+    background-color: #E02C6D;
+    border: none;
+    border-radius: 17px;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.main-baner{
+    display: flex;
+    flex-wrap: nowrap;
+    font-weight: bold;
+    font-family: roboto;
+    font-size: 15px;
+    color: #3A3A3A;
+    margin-top: 80px;
+}
+.main-baner .baner-left h1{
+    font-size: 45px;
+    color: #3A3A3A;
+    padding-top: 50px;
+}
+.main-baner .baner-left p{
+    padding: 10px 0;
+    line-height: 21px;
+    color: #3A3A3A;
+    padding-right: 150px;
+}
+.main-baner .baner-right{
+    margin-left: 10px;
+}
+.main-baner .baner-right img{
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
 
-
+.client-logo{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.client-logo img{
+    padding: 45px 0px 35px 69px;
+}
