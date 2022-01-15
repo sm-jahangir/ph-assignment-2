@@ -110,3 +110,20 @@ body{
     color: #91919C;
     font-size: 14px;
 }
+
+footer{
+    background-color: #0A0826;
+    color: #fff;
+    text-align: center ;
+    padding: 30px 0;
+}
+footer p{
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+footer span{
+    margin-top: 20px;
+    overflow: hidden;
+    display: block;
+}
