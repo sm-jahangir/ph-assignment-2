@@ -255,6 +255,12 @@ footer span{
     overflow: hidden;
     display: block;
 }
+footer span a i{
+  padding: 10px;
+  background-color: #22213C;
+  border-radius: 50%;
+  color: #FFFFFF;
+}
 
 /* for responsive */
 @media only screen and (max-width: 425px){
