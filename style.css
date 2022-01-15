@@ -8,6 +8,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     /* font-family: 'Roboto', sans-serif; */
+    background-color: #ddd;
 }
 .container{
     width: 80%;
@@ -54,9 +55,58 @@ body{
 .client-logo{
     display: flex;
     flex-wrap: wrap;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+    border-top: 1px dashed #fff;
+    border-bottom: 1px dashed #fff;
 }
 .client-logo img{
     padding: 45px 0px 35px 69px;
+}
+
+.product-section-area h1{
+    text-align: center;
+    font-family: roboto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 32px;
+    color: #3A3A3A;
+}
+
+
+
+.product-collection.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 25px;
+}
+.product-collection.items .item{
+    height: 450px;
+    width: 300px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:  rgb(196, 196, 196) 5px 5px 10px;
+    padding: 12px; 
+}
+.product-collection.items img{
+    text-align: center;
+    width: 300px;
+    height: 250px;
+}
+.product-collection.items h2{
+    font-size: 22px;
+    padding-top: 15px;
+    font-weight: 400;
+    color: #18191F;
+}
+.product-collection.items .rating{
+    font-size: 12px;
+    color: #FB8200;
+    padding-bottom: 17px;
+}
+.product-collection.items span{
+    color: #5E6366;
+}
+.product-collection.items p{
+    color: #91919C;
+    font-size: 14px;
 }
